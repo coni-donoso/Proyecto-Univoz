@@ -1,0 +1,37 @@
+#cajaPadre {
+    display: flex;
+    width: 700px;
+    height: 470px;
+    /* border: 1px solid rgba(7, 7, 7, 0.413); */
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    background: #1c191c50;
+
+
+}
+
+
+
+#BodyLogin {
+    background-image: url('../assets/32191-multicolor.jpg') ;
+    background-repeat: round ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+
+    --background: #1634c9db;
+    --text: #fff;
+    --text2: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+  
